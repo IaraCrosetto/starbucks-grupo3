@@ -20,8 +20,9 @@
   </head>
   <body>
     <header>
+      <!--Inicio Menu-->
       <nav
-        class="bg-light navbar-expand-lg navbar bg-body-dark border-bottom shadow"
+        class="bg-light navbar-expand-md navbar bg-body-dark border-bottom shadow"
       >
         <div class="container-fluid p-0">
           <div class="row justify-content-start">
@@ -37,18 +38,20 @@
               </a>
             </div>
           </div>
+          <!--Boton Menu desplegable-->
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
+            data-bs-target="#menu"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--Elementos del Menu-->
+          <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item text-center">
                 <a class="nav-link" href="#"> <strong>MENU</strong></a>
@@ -60,47 +63,48 @@
                 <a class="nav-link" href="#"><strong>GIFT CARDS</strong></a>
               </li>
             </ul>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item text-center me-md-5 mt-2">
-                <a href="#" class="nav-link">
-                  <div class="d-inline">
-                    <strong>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-geo-alt-fill m-1"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-                        />
-                      </svg>
-                      Find a store
-                    </strong>
-                  </div></a
-                >
-              </li>
-              <li class="nav-item md-0 mt-2">
-                <a
-                  href="#"
-                  class="nav-link-2 btn btn-light m-1 mt-0 px-3"
-                  type="button"
-                  >Sign In</a
-                >
-              </li>
-              <li class="nav-item mt-2">
-                <a
-                  href="#"
-                  class="nav-link-1 btn btn-dark m-3 mt-0"
-                  type="button"
-                  >Join Now</a
-                >
-              </li>
-            </ul>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item text-center me-md-5 mt-2">
+                  <a href="#" class="nav-link">
+                    <div class="d-inline">
+                      <strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-geo-alt-fill m-1"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                          />
+                        </svg>
+                        Find a store
+                      </strong>
+                    </div></a
+                  >
+                </li>
+                <hr class="text-dark-50" />
+                <li class="nav-item md-0 mt-2  text-center">
+                  <a
+                    href="#"
+                    class="nav-link-2 btn btn-light m-1 mt-0 px-3"
+                    type="button"
+                    >Sign In</a
+                  >
+                </li>
+                <li class="nav-item mt-2  text-center">
+                  <a
+                    href="#"
+                    class="nav-link-1 btn btn-dark m-3 mt-0"
+                    type="button"
+                    >Join Now</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
