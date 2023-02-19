@@ -12,6 +12,7 @@ img {
   height: auto;
 }
 main{
+  width: 100%;
   margin-top: 6rem;
 }
 .container {
@@ -29,13 +30,13 @@ main{
 }
 
 .gutter-3{
-   background-color: #006241;
+   background-color: #3d7170;
 }
 .gutter-4{
-   background-color: #dfc49d;;
+   background-color: #f4c5a1;;
 }
 .gutter-5{
-   background-color: #d62b1f;
+   background-color: #8b323c;
 }
 main h2{
   font-size: 2.4rem;
