@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/*Comienzo de Main (Angelica)*/
+img {
+  border: 0;
+}
+img {
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+main{
+  margin-top: 6rem;
+}
+.container {
+  display: block;
+  width: 100%;
+  padding: 0 1.6rem;
+  margin-top: 2rem;
+
+}
+.gutter-1 {
+  background-color: #d4e9e2;
+}
+.gutter-2{
+    background-color: #d4e9e2;
+}
+
+.gutter-3{
+   background-color: #006241;
+}
+.gutter-4{
+   background-color: #dfc49d;;
+}
+.gutter-5{
+   background-color: #d62b1f;
+}
+main h2{
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: #1e3932;
+}
+main a{
+  text-decoration: none;
+  min-width: 35px; 
+  min-height: 35px;
+  padding: 0.5px 15px 1px;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.7rem;
+  color: #1e3932;
+}
