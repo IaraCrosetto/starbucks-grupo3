@@ -7,7 +7,7 @@
 .nav-link-2,.nav-link-2:hover{
     color: black;
     border: 1px solid black;
-
+    border-radius: 500px;
 }
 .nav-link-1{
     color: white;
