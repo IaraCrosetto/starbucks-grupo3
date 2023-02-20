@@ -1,6 +1,3 @@
-
-
-
 main{
   width: 100%;
   margin-top: 6rem;
@@ -47,4 +44,112 @@ main a{
   border-width: 0.1rem;
   border-radius: 0.7rem;
   color: #1e3932;
+}
+nav .nav-link {
+     color: #060000;
+ }
+
+ nav .nav-link:hover {
+     color: #006241;
+ }
+
+ nav .nav-link-2,
+ .nav-link-2:hover {
+     color: black;
+     border: 1px solid black;
+     border-radius: 500px;
+ }
+
+ nav .nav-link-1 {
+     color: white;
+ }
+
+ nav .nav-link-1:hover {
+     color: #D4E9E2;
+     background-color: #000000;
+ }
+footer{
+    color: rgba(0,0,0,.87);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: .03em;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);;
+}
+footer a{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .nav-link{
+    color: rgb(154, 153, 153);
+}
+footer .nav-link:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+footer .last-links span{
+    margin: 0 1rem;
+}
+footer .sb-footer-columnWidth,
+footer .nav flex-column {
+    width: 190px;
+    max-width: 190px;
+}
+footer .hidden {
+    display: none!important;
+}
+footer .accordion-flush .accordion-item {
+    border: 0;
+}
+footer .accordion-button:focus{
+    box-shadow: none !important;
+}
+footer .accordion-button:not(.collapsed){
+    background-color: white;
+    color: black;
+    box-shadow: none !important;
+}
+footer .accordion-button::after{
+    background-image: var(--bs-accordion-btn-icon) !important;
+}
+@media (min-width: 1520px){
+    footer .sb-global-gutters--margin.sb-global-gutters--maxWidthLayout, footer .sb-global-gutters.sb-global-gutters--maxWidthLayout {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 990px){
+    footer {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+}
+@media (min-width: 1024px){
+    footer .lg-hidden {
+        display: none!important;
+    }
+    footer .lg-inline-block {
+        display: inline-block!important;
+    }
+}
+@media (max-width: 1024px) {
+    footer span{
+        display: none;
+    }
+    footer .last-links a{
+        display: flex;
+        padding: 0.5rem 0;
+    }
+    footer .lg-hidden:hover{
+        cursor: pointer;
+    }
+    footer .container, footer .container-md, footer .container-sm {
+        max-width: 875px;
+    }
 }
