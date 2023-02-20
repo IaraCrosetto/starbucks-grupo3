@@ -1,3 +1,26 @@
+nav .nav-link {
+     color: #060000;
+ }
+
+ nav .nav-link:hover {
+     color: #006241;
+ }
+
+ nav .nav-link-2,
+ .nav-link-2:hover {
+     color: black;
+     border: 1px solid black;
+     border-radius: 500px;
+ }
+
+ nav .nav-link-1 {
+     color: white;
+ }
+
+ nav .nav-link-1:hover {
+     color: #D4E9E2;
+     background-color: #000000;
+ }
 footer{
     color: rgba(0,0,0,.87);
     font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
