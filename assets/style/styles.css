@@ -1,41 +1,36 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-/*Comienzo de Main (Angelica)*/
-img {
-  border: 0;
-}
-img {
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-}
+
+
+
 main{
   width: 100%;
   margin-top: 6rem;
 }
-.container {
+main img {
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+main .container {
   display: block;
   width: 100%;
   padding: 0 1.6rem;
   margin-top: 2rem;
 
 }
-.gutter-1 {
+main .gutter-1 {
   background-color: #d4e9e2;
 }
-.gutter-2{
+main .gutter-2{
     background-color: #d4e9e2;
 }
 
-.gutter-3{
+main .gutter-3{
    background-color: #3d7170;
 }
-.gutter-4{
+main .gutter-4{
    background-color: #f4c5a1;;
 }
-.gutter-5{
+main .gutter-5{
    background-color: #8b323c;
 }
 main h2{
