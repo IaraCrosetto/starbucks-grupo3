@@ -45,6 +45,22 @@ main a{
   border-radius: 0.7rem;
   color: #1e3932;
 }
+a[href="http://deltastarbucks.com/terms"] {
+    text-decoration: underline;
+    color: #000000;
+    border-style: none;
+    padding: 0;
+}
+main .aclaracion {
+    margin-top: 0.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+main p {
+    max-width: 540px;
+    font-size: 14px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 nav .nav-link {
      color: #060000;
  }
@@ -123,6 +139,7 @@ footer .accordion-button::after{
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 @media only screen and (max-width: 990px){
     footer {
@@ -136,6 +153,9 @@ footer .accordion-button::after{
     }
     footer .lg-inline-block {
         display: inline-block!important;
+    }
+    main p {
+        font-size: 0.9rem;
     }
 }
 @media (max-width: 1024px) {
@@ -152,4 +172,5 @@ footer .accordion-button::after{
     footer .container, footer .container-md, footer .container-sm {
         max-width: 875px;
     }
+
 }
