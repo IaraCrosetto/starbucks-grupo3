@@ -1,3 +1,8 @@
+*{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
 main{
   width: 100%;
   margin-top: 6rem;
@@ -16,20 +21,33 @@ main .container {
 }
 main .gutter-1 {
   background-color: #d4e9e2;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 main .gutter-2{
     background-color: #d4e9e2;
+    padding-right: 0 !important;
+   padding-left: 0 !important;
+
 }
 
 main .gutter-3{
    background-color: #3d7170;
+   padding-right: 0 !important;
+   padding-left: 0 !important;
 }
 main .gutter-4{
-   background-color: #f4c5a1;;
+   background-color: #f4c5a1;
+   padding-right: 0 !important;
+  padding-left: 0 !important;
 }
+
 main .gutter-5{
    background-color: #8b323c;
+   padding-right: 0 !important;
+  padding-left: 0 !important;
 }
+
 main h2{
   font-size: 2.4rem;
   font-weight: normal;
